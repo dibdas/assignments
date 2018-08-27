@@ -1,0 +1,69 @@
+:root{
+font-size: 10px;
+}
+body{
+margin:0;
+padding:0;
+}
+.container{
+  display:block;
+  margin: 20px;
+}
+.banner .card {
+  background: grey;
+  border-color:saddlebrown;
+  border-radius: 10px;
+  box-shadow: 0px 3px 20px 2px firebrick;
+  display: block;
+  }
+.banner .card .heading {
+  color: sienna;
+  font-family: "Playfair Display", serif;
+  font-size: 44px;
+  margin-bottom:5px;
+  padding: 40px; }
+.banner .card .sub-heading {
+  color: darkblue;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  margin:0;
+  padding: 20px;
+  padding: 20px; }
+  .banner .card .sub-heading button {
+    background:ivory;
+    border: none;
+    border-radius: 10px;
+    color:red;
+    font-family: "Istok Web", sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    text-transform:uppercase;
+    transition: box-shadow 0.3s linear 0.1s; }
+  .banner .card .sub-heading button:hover{
+    cursor: pointer;
+    box-shadow: 0 3px 20px 0 #d2ee35; }
+.row {
+display: block;
+margin-top: 30px;}
+.row .my-image {
+  border: 1px solid #35eea4;
+  border-radius: 5px;
+  box-shadow: 0px 3px 20px 2px #2c2c2c;
+  width: 200px;
+  float: right;
+}
+.paragraph {
+float:left;
+color: olive;
+font-family: "Istok Web", sans-serif;
+width: 350px;
+}
+.icon-group {
+margin-top: 20px; }
+.icon-group.icon {
+ margin-right: 10px;
+ width: 20px; }
+
+
